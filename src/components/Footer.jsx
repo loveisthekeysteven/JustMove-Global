@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
         <div className="column">
           <h3>Contact</h3>
-          <p>+234 7066858528</p>
+          <p>+234 815543753</p>
           <p>info@justmoveglobal.com</p>
         </div>
         <div className="column iconColumn">
