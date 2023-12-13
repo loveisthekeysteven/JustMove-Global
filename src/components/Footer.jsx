@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import logo from "../assets/traveloLogo.png";
-import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
-import { BsFacebook } from "react-icons/bs";
+import { AiFillInstagram } from "react-icons/ai";
+import { BsFacebook, BsTwitterX } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { FaWhatsapp } from "react-icons/fa";
+
 const Footer = () => {
   const phoneNumber = "+2348155437534";
   const returnURL = "http://localhost:3000/";
@@ -68,7 +69,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <AiFillTwitterCircle className="icon" />
+            <BsTwitterX className="icon" />
           </a>
           <a href="mailto:info@justmobegloba.com">
             <SiGmail className="icon" />

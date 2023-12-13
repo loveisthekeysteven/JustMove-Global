@@ -70,7 +70,7 @@ const Testimonials = () => {
           <div>
             {/* <img src={personPic3} alt="" /> */}
             <span>
-              <h2>John Owubokir</h2>
+              <h2>Olamide Smith Femi</h2>
               <p>Client</p>
             </span>
           </div>
@@ -88,7 +88,7 @@ const Testimonials = () => {
           <div>
             {/* <img src={personPic2} alt="" /> */}
             <span>
-              <h2>Peter Nieketien</h2>
+              <h2>Okoye Akachukwu Hyacinth</h2>
               <p>Client</p>
             </span>
           </div>

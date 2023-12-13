@@ -35,6 +35,7 @@ const Destinations = () => {
             Adventure awaits. <br /> Explore the world with us.
           </h1>
           <p>Choose your favorite from 200+ Destinations Worldwide</p>
+          <p>We bring to you the best airfare</p>
           {/* <div>
             <input type="text" placeholder="Choose Your Destination..." />
             <button>

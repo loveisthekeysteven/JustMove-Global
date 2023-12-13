@@ -90,7 +90,7 @@ const ContactUs = () => {
         >
           <BsFillTelephoneFill className="icon" />
           <h3>PHONE NUMBER</h3>
-          <p>+234 7066858528</p>
+          <p>+234 8155437534</p>
         </motion.div>
         <motion.div
           animate={{ opacity: 1, x: 0 }}
@@ -105,7 +105,10 @@ const ContactUs = () => {
         >
           <MdEmail className="icon" />
           <h3>FAX</h3>
-          <p>+234 8155437534</p>
+          <p>
+            info@justmobegloba <br />
+            .com
+          </p>
         </motion.div>
         <motion.div
           animate={{ opacity: 1, x: 0 }}

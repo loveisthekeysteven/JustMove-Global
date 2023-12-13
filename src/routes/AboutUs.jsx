@@ -43,6 +43,15 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="item">
+          <h2>Our Vision</h2>
+          <p>
+            At JustMove Global Services, our vision is to utilize our
+            accumulated expertise to effectively work on visa applications and
+            provide clients with practical solutions to their failed
+            applications.
+          </p>
+        </div>
+        <div className="item">
           <h2>Why Choose Us</h2>
           <ol>
             <li>
@@ -54,7 +63,15 @@ const AboutUs = () => {
               admission to reputable institutions.
             </li>
             <li>
-              <span>Study Permit:</span>Our concierge service goes beyond
+              <span>Study Permit:</span> Embarking on your educational journey
+              is an exciting adventure, and we're here to ensure a smooth start.
+              Our dedicated team specializes in providing comprehensive study
+              permit assistance, guiding you through the process with expertise
+              and efficiency. From document preparation to submission, count on
+              us to make your academic dreams a reality.
+            </li>
+            <li>
+              <span>Concierge:</span> Our concierge service goes beyond
               traditional immigration support. We offer personalized assistance
               to make your relocation seamless. From airport pickup to
               accommodation arrangements, our concierge service ensures a
@@ -62,13 +79,7 @@ const AboutUs = () => {
               focus on your studies or other endeavors.
             </li>
             <li>
-              <span>Concierge:</span> Through our extensive network of partners
-              worldwide, we secure exclusive access to top-notch accommodations,
-              transportation, and immersive experiences. You get to indulge in
-              the finest offerings each destination has to offer.
-            </li>
-            <li>
-              <span>Super Visa:</span>For those wanting to reunite with family
+              <span>Super Visa:</span> For those wanting to reunite with family
               in Canada, our Super Visa services simplify the application
               process. We guide you through the requirements, ensuring a smooth
               application for the Super Visa, which allows extended stays for
@@ -83,30 +94,23 @@ const AboutUs = () => {
               to your shared journey.
             </li>
             <li>
-              <span>Aviation Services:</span>As part of our comprehensive
+              <span>Aviation Services:</span> As part of our comprehensive
               immigration services, we offer aviation services for clients who
               require specialized travel arrangements. Whether it's coordinating
               private flights or addressing unique travel needs, our team
               ensures a comfortable and secure travel experience.
             </li>
             <li>
-              <span>POF (Proof of Funds) Services:</span>Demonstrating financial
-              stability is a key component of immigration applications. Our POF
-              services assist you in preparing and presenting accurate proof of
-              funds documentation, enhancing the credibility of your application
-              and increasing the likelihood of approval.
+              <span>POF (Proof of Funds) Services:</span> Demonstrating
+              financial stability is a key component of immigration
+              applications. Our POF services assist you in preparing and
+              presenting accurate proof of funds documentation, enhancing the
+              credibility of your application and increasing the likelihood of
+              approval.
             </li>
           </ol>
         </div>
-        <div className="item">
-          <h2>Our Vision</h2>
-          <p>
-            At JustMove Global Services, our vision is to utilize our
-            accumulated expertise to effectively work on visa applications and
-            provide clients with practical solutions to their failed
-            applications.
-          </p>
-        </div>
+
         <div className="item">
           <h2>Let's Create Your Perfect Journey</h2>
           <p>
