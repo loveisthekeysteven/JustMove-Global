@@ -68,6 +68,14 @@ const Navbar = () => {
             Home
           </li>
         </Link>
+        <Link to={"/about-us"} className="link-styles">
+          <li
+            className={activeTab === "about-us" ? "activeTab" : "nonActive"}
+            onClick={() => setActiveTab("about-us")}
+          >
+            About Us
+          </li>
+        </Link>
         <Link to={"/destinations"} className="link-styles">
           <li
             className={activeTab === "destinations" ? "activeTab" : "nonActive"}
@@ -86,14 +94,7 @@ const Navbar = () => {
             Holiday Types
           </li>
         </Link>
-        <Link to={"/about-us"} className="link-styles">
-          <li
-            className={activeTab === "about-us" ? "activeTab" : "nonActive"}
-            onClick={() => setActiveTab("about-us")}
-          >
-            About Us
-          </li>
-        </Link>
+
         <Link to={"/contact-us"} className="link-styles">
           <li
             className={activeTab === "contact-us" ? "activeTab" : "nonActive"}
@@ -102,18 +103,6 @@ const Navbar = () => {
             Contact Us
           </li>
         </Link>
-        {/* <div className="buttons">
-          <Link
-            to={"/sign-up"}
-            className={activeTab === "sign-up" ? "activeTab" : "nonActive"}
-            onClick={() => setActiveTab("sign-up")}
-          >
-            <button>Sign Up</button>
-          </Link>
-          <Link to={"/log-in"}>
-            <button>Log In</button>
-          </Link>
-        </div> */}
       </ul>
       <div className="mobile-menu" onClick={handleToggle}>
         {toggle ? <FaTimes className="icon" /> : <FaBars className="icon" />}
@@ -146,6 +135,9 @@ const Container = styled.div`
     li {
       transition: 0.3s;
       cursor: pointer;
+      :hover {
+        color: var(--primaryColor);
+      }
     }
     .activeTab {
       color: var(--primaryColor);

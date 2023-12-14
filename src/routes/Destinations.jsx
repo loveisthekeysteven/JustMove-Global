@@ -34,8 +34,14 @@ const Destinations = () => {
           <h1>
             Adventure awaits. <br /> Explore the world with us.
           </h1>
+          <h2>
+            Discover the ease of planning your journey with our intuitive flight
+            booking platform. From takeoff to touchdown, we're here to make
+            every moment of your travel experience seamless and every
+            destination unforgettable
+          </h2>
           <p>Choose your favorite from 200+ Destinations Worldwide</p>
-          <p>We bring to you the best airfare</p>
+
           {/* <div>
             <input type="text" placeholder="Choose Your Destination..." />
             <button>
@@ -157,6 +163,7 @@ const Destinations = () => {
 const Container = styled.div`
   .title {
     margin-top: 2.8em;
+
     text-align: center;
     font-size: 2.3em;
     font-weight: 500;
@@ -225,6 +232,7 @@ const Container = styled.div`
       gap: 1.4em;
       flex-wrap: wrap;
       margin-top: 1em;
+      margin-bottom: 1em;
       .item {
         width: 250px;
         height: 240px;
