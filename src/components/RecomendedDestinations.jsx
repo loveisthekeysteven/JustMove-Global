@@ -4,13 +4,13 @@ import canada from "../assets/homePageImages/canada2.webp";
 import Sweden from "../assets/homePageImages/sweden2.jpg";
 import uk from "../assets/homePageImages/uk1.jpg";
 import poland from "../assets/homePageImages/poland1.jpg";
+import ireland from "../assets/homePageImages/ireland.jpg";
 
 import fiveStarIcon from "../assets/homePageImages/5starsIcon.png";
-import { Link } from "react-router-dom";
 
 const RecomendedDestinations = () => {
   const phoneNumber = "+2348155437534";
-  const returnURL = "http://localhost:3000/";
+  const returnURL = "https://www.justmoveglobal.com/";
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -108,6 +108,28 @@ const RecomendedDestinations = () => {
               universities in Poland include the University of Warsaw,
               Jagiellonian University in Krakow, and Warsaw University of
               Technology
+            </p>
+            <p>Study permit (student visa)</p>
+            <p>Visa appointment date</p>
+            <p>Work Permit (work visa)</p>
+            <a href="#" onClick={handleClick}>
+              <button>LET'S Migrate</button>
+            </a>
+          </div>
+        </div>
+        <div className="card">
+          <img src={ireland} alt="" />
+          <div>
+            <h2>Ireland</h2>
+            <img src={fiveStarIcon} alt="" />
+            <p>
+              It's hugely comforting to know that Ireland is one of the very few
+              English-speaking countries in Europe, so settling in and making
+              the most of your stay with us is super easy. Whether it's dealing
+              with lecturers or simply asking for directions, there’s no danger
+              of anything getting lost in translation. Regardless of what you're
+              looking to study, from Humanities to Engineering, there’s an Irish
+              institution that can match your curriculum to perfection.
             </p>
             <p>Study permit (student visa)</p>
             <p>Visa appointment date</p>

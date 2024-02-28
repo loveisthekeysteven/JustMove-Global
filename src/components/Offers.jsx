@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Offers = () => {
   const phoneNumber = "+2348155437534";
-  const returnURL = "http://localhost:3000/";
+  const returnURL = "https://www.justmoveglobal.com/";
 
   const handleClick = (e) => {
     e.preventDefault();

@@ -4,15 +4,16 @@ import canada from "../assets/homePageImages/toronto.jpg";
 import sweden from "../assets/homePageImages/sweden.jpg";
 import uk from "../assets/homePageImages/uk.jpg";
 import poland from "../assets/homePageImages/poland.jpg";
+import ireland from "../assets/homePageImages/ireland2.jpg";
 import { AiTwotoneStar } from "react-icons/ai";
-import { Link } from "react-router-dom";
+
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 
 const PopluarDestinations = () => {
   const phoneNumber = "+2348155437534";
-  const returnURL = "http://localhost:3000/";
+  const returnURL = "https://www.justmoveglobal.com/";
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -70,6 +71,18 @@ const PopluarDestinations = () => {
           </span>
         </motion.div>
 
+        <motion.div animate={animation} className="item">
+          <img src={ireland} alt="" />
+          <h2>Ireland</h2>
+          <span>
+            <h3>
+              <span>Migration</span>Routes
+            </h3>
+            <h4>
+              4.8 <AiTwotoneStar className="icon" />
+            </h4>
+          </span>
+        </motion.div>
         <motion.div animate={animation} className="item">
           <img src={uk} alt="" />
           <h2>UK</h2>

@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
         <div className="column">
           <h3>Contact</h3>
-          <p>+234 815543753</p>
+          <p>+234 8155437534</p>
           <p>info@justmoveglobal.com</p>
         </div>
         <div className="column iconColumn">
@@ -74,7 +74,11 @@ const Footer = () => {
           <a href="mailto:info@justmobegloba.com">
             <SiGmail className="icon" />
           </a>
-          <a href="#" onClick={handleClick}>
+          <a
+            href="https://wa.me/+2348155437534"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaWhatsapp className="icon" />
           </a>
         </div>

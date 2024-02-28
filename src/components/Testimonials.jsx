@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { RiDoubleQuotesR } from "react-icons/ri";
-import personPic1 from "../assets/homePageImages/person1Pic.avif";
-import personPic2 from "../assets/homePageImages/person2Pic.jpg";
-import personPic3 from "../assets/homePageImages/person3Pic.webp";
+
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
@@ -90,6 +88,57 @@ const Testimonials = () => {
             {/* <img src={personPic2} alt="" /> */}
             <span>
               <h2>Sarah Ebere James</h2>
+              <p>Client</p>
+            </span>
+          </div>
+        </motion.div>
+        <motion.div animate={animation} className="item">
+          <RiDoubleQuotesR className="icon" />
+          <p>
+            Mr. Solomon and the team of JustMove Global Services is reliable and
+            efficient in what they do, after my first study visa refusal I
+            contacted them to assist me with my reapplication, within 3 weeks my
+            study visa was approved.
+          </p>
+          <div>
+            {/* <img src={personPic2} alt="" /> */}
+            <span>
+              <h2>Bolaji Moshood</h2>
+              <p>Client</p>
+            </span>
+          </div>
+        </motion.div>
+        <motion.div animate={animation} className="item">
+          <RiDoubleQuotesR className="icon" />
+          <p>
+            I came across Mr. Solomon of JustMove Global Services online after
+            my study visa was refused twice. I am so excited to get my Canada
+            study visa approved on the third attempt after JustMove Global
+            Services and the team worked on my application. They are experts in
+            what they do, sincere, genuine and give proper guidance and
+            attention to every detail. They make the application process and
+            documentation easy
+          </p>
+          <div>
+            {/* <img src={personPic2} alt="" /> */}
+            <span>
+              <h2>Eyimofe Daniel</h2>
+              <p>Client</p>
+            </span>
+          </div>
+        </motion.div>
+        <motion.div animate={animation} className="item">
+          <RiDoubleQuotesR className="icon" />
+          <p>
+            JustMove Global Services provided exceptional assistance for my UK
+            travel. Their top-notch services made everything seamless and
+            stress-free. From visa applications to transportation, they were
+            professional and attentive throughout. Highly recommend!
+          </p>
+          <div>
+            {/* <img src={personPic2} alt="" /> */}
+            <span>
+              <h2>Ogonna OKAFOR</h2>
               <p>Client</p>
             </span>
           </div>

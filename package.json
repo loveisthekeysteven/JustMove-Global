@@ -1,5 +1,6 @@
 {
   "name": "JustMove Global",
+  "homepage": "https://www.justmoveglobal.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
