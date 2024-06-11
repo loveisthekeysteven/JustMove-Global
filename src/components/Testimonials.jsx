@@ -143,6 +143,25 @@ const Testimonials = () => {
             </span>
           </div>
         </motion.div>
+        <motion.div animate={animation} className="item">
+          <RiDoubleQuotesR className="icon" />
+          <p>
+            Firstly, my appreciation goes to God almighty for making this a
+            reality, also my Sincere appreciation to JUST MOVE GLOBAL for your
+            services and support all through this process. Even when it seems to
+            be taking too long for a decision to be made, They kept reassuring
+            me to be hopeful. My PPR finally dropped. Just move global, the best
+            travel agency I will recommend to anyone. Mr Solomon and his team
+            are the best.
+          </p>
+          <div>
+            {/* <img src={personPic2} alt="" /> */}
+            <span>
+              <h2>Collins</h2>
+              <p>Client</p>
+            </span>
+          </div>
+        </motion.div>
       </div>
     </Container>
   );

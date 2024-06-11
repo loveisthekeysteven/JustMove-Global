@@ -5,6 +5,7 @@ import Sweden from "../assets/homePageImages/sweden2.jpg";
 import uk from "../assets/homePageImages/uk1.jpg";
 import poland from "../assets/homePageImages/poland1.jpg";
 import ireland from "../assets/homePageImages/ireland.jpg";
+import newzealnd from "../assets/homePageImages/newzealand2.jpg";
 
 import fiveStarIcon from "../assets/homePageImages/5starsIcon.png";
 
@@ -42,6 +43,28 @@ const RecomendedDestinations = () => {
             <p>Express Entry</p>
             <p>Business Investor</p>
             <p>Canada’s provincial nomination migration route</p>
+
+            {/* <Link to={"/santorini"} className="link-styles">
+              <button>LET'S VISIT</button>
+            </Link> */}
+            <a href="#" onClick={handleClick}>
+              <button>LET'S Migrate</button>
+            </a>
+          </div>
+        </div>
+        <div className="card">
+          <img src={newzealnd} alt="" />
+          <div>
+            <h2>New Zealand</h2>
+
+            <img src={fiveStarIcon} alt="" />
+
+            <p>
+              New Zealand is an increasingly popular destination for
+              international students, known for its high-quality education
+              system, vibrant culture, and stunning natural landscapes.
+            </p>
+            <p>Study permit (Student visa)</p>
 
             {/* <Link to={"/santorini"} className="link-styles">
               <button>LET'S VISIT</button>

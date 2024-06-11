@@ -17,10 +17,14 @@ const Offers = () => {
   return (
     <Container>
       <div className="card">
-        <h2>Get 20% off by Early Booking</h2>
-        <p>Book Now to get 30% off on more than 20 destinations</p>
+        <h2>We Are Please To Announce </h2>
+        <h2>OUR OFFICIAL</h2>
+        <p>
+          Collaboration With Schools Across Canada, USA, AUSTRALIA, THE UK, &
+          IRELAND
+        </p>
         <a href="#" onClick={handleClick}>
-          <button>Book Now</button>
+          <button>Let Us Handle Your Application</button>
         </a>
       </div>
     </Container>
@@ -40,13 +44,14 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    background: var(--gradientBackground);
     h2 {
-      color: var(--primaryColor);
+      /* color: var(--primaryColor); */
       font-size: 2em;
       font-weight: 500;
     }
     p {
-      color: gray;
+      /* color: gray; */
     }
     button {
       padding: 10px 14px;

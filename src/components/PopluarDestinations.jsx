@@ -5,6 +5,7 @@ import sweden from "../assets/homePageImages/sweden.jpg";
 import uk from "../assets/homePageImages/uk.jpg";
 import poland from "../assets/homePageImages/poland.jpg";
 import ireland from "../assets/homePageImages/ireland2.jpg";
+import newZeland from "../assets/homePageImages/newzealand1.jpg";
 import { AiTwotoneStar } from "react-icons/ai";
 
 import { motion } from "framer-motion";
@@ -104,6 +105,18 @@ const PopluarDestinations = () => {
             </h3>
             <h4>
               4.7 <AiTwotoneStar className="icon" />
+            </h4>
+          </span>
+        </motion.div>
+        <motion.div animate={animation} className="item">
+          <img src={newZeland} alt="" />
+          <h2>New Zealand</h2>
+          <span>
+            <h3>
+              <span>Migration</span>Routes
+            </h3>
+            <h4>
+              4.5 <AiTwotoneStar className="icon" />
             </h4>
           </span>
         </motion.div>
